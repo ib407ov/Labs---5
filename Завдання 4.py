@@ -1,4 +1,4 @@
-x = int(input('start number x: '))
+x = 1
 
 for i in range(10):
     y = x

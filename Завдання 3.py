@@ -6,10 +6,11 @@ n = 1
 Summ = 2
 
 while math.fabs(2+((1 / 2 * n - 1) * ((x - 1 / x + 1) ** (2 * n - 1))))>e:
-    Summ = 2+((1 / 2 * n - 1) * ((x - 1 / x + 1) ** (2 * n - 1)))
+    Summ = ((1 / 2 * n - 1) * ((x - 1 / x + 1) ** (2 * n - 1)))
     n += 1
     if n == x:
         break
+Summ += 2
 
 print("Добуток:{0}".format(Summ))
 
